@@ -1,6 +1,6 @@
 {
-  "name": "joi-timezone",
-  "version": "3.0.0",
+  "name": "@puzzleframework/joi-timezone",
+  "version": "1.0.0",
   "description": "timezone validation for Joi",
   "keywords": [
     "joi",
@@ -15,7 +15,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SafetyCulture/joi-timezone.git"
+    "url": "https://github.com/spark-development/joi-timezone.git"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha --recursive",
@@ -28,17 +28,18 @@
   },
   "author": "SafetyCulture Pty Ltd <info@safetyculture.com> (http://www.safetyculture.com)",
   "constributors": [
-    "Jason Jacob <jason.jacob@safetyculture.com>"
+    "Jason Jacob <jason.jacob@safetyculture.com>",
+    "Valentin Duricu <valentin.duricu@spark-dev.ro>"
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "moment-timezone": "^0.5.13"
+    "moment-timezone": "^0.5.28"
   },
   "peerDependencies": {
     "@hapi/joi": ">=15.0.3"
   },
   "devDependencies": {
-    "@hapi/joi": "^15.0.3",
+    "@hapi/joi": ">=15.0.3",
     "chai": "^4.1.0",
     "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
