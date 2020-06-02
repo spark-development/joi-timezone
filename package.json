@@ -1,6 +1,6 @@
 {
   "name": "@puzzleframework/joi-timezone",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "timezone validation for Joi",
   "keywords": [
     "joi",
@@ -48,6 +48,6 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "istanbul": "^1.0.0-alpha.2",
-    "mocha": "^6.1.4"
+    "mocha": "^7.2.0"
   }
 }
